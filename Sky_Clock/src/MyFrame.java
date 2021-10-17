@@ -5,7 +5,6 @@ import java.util.Calendar;
 
 public class MyFrame extends JFrame {
 
-    /*Calendar calendar;*/
     SimpleDateFormat timeFormat;
     SimpleDateFormat dayFormat;
     SimpleDateFormat dateFormat;
@@ -19,7 +18,7 @@ public class MyFrame extends JFrame {
     String date;
 
     MyFrame() throws InterruptedException {
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // for close button
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setTitle("Sky Clock");
         this.setLayout(new FlowLayout());
         this.getContentPane().setBackground(Color.BLACK);
@@ -35,7 +34,7 @@ public class MyFrame extends JFrame {
         timeLabel.setFont(new Font("Garamond",Font.PLAIN,60));
         timeLabel.setForeground(new Color(0, 204, 255));
         timeLabel.setBackground(Color.BLACK);
-        timeLabel.setOpaque(true);                                     // Display Background color
+        timeLabel.setOpaque(true);
 
         dayLabel = new JLabel();
         dayLabel.setFont(new Font("Garamond",Font.PLAIN,50));
