@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
-  
+   
 public class MyFrame extends JFrame {
  
     SimpleDateFormat timeFormat;
